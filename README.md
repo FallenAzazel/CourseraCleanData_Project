@@ -21,7 +21,7 @@
 
 - Begin by cloning this repository
 - Download the [dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and extract the files maintaining the folder structure. 
-This will result in a /UCI HAR Dataset/ folder that has all the necessary data files.
+This will result in a `/UCI HAR Dataset/` folder that has all the necessary data files.
 - Place the run_analysis.R script in this base folder.
 - Set the working directory to the /UCI HAR Dataset/ folder.
 - Run `source("run_analysis.R")`
