@@ -1,10 +1,9 @@
-Repo: CourseraCleanData_Project
-===============================
+
 
 ###Coursera : Getting and Cleaning Data Project
 
 - Peer assessed project for the analysis of Samsung Galaxy II movement measurements
-- [Dataset] was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip on 21st April 2014
+- [Dataset] was downloaded from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) on 21st April 2014
 - Further description of the data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ###Aim of the script
