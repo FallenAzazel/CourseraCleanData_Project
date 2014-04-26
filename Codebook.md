@@ -1,9 +1,9 @@
+###Coursera : Getting and Cleaning Data Project
 
-Codebook for the dataset
-======================== 
+###Codebook for the dataset
 
-###Feature Selection 
-
+Feature Selection 
+================= 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals 
 tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a 
 constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass 
@@ -49,12 +49,12 @@ The set of variables that were estimated from these signals are:
 
 ###Each Activity Label(1 through 6):
 
-1 WALKING 
-2 WALKING_UPSTAIRS 
-3 WALKING_DOWNSTAIRS 
-4 SITTING 
-5 STANDING 
-6 LAYING 
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING 
 
 
 
