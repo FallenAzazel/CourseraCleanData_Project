@@ -3,7 +3,7 @@
 ###Coursera : Getting and Cleaning Data Project
 
 - Peer assessed project for the analysis of Samsung Galaxy II movement measurements
-- [Dataset] was downloaded from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) on 21st April 2014
+- Dataset was downloaded from (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) on 21st April 2014
 - Further description of the data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ###Aim of the script
@@ -11,7 +11,7 @@
 - Using the training and test datasets to read the measurements taken (X)
 - Subset the measurements taken to those only reporting Mean and Standard Deviation values (those including mean() and std())
 - Assign columns refering to the IDs of Activity and Subject
-- Merge [training] and [test] datasets into a single resource
+- Merge `training` and `test` datasets into a single resource
 - Rename the Activity IDs to more descriptive values found in [activity_labels.txt]
 - Calculate the mean values for each Subject and Activity by melting the dataset and recasting
 - Write the final tidy dataset to files
