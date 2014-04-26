@@ -36,7 +36,7 @@ This will result in a /UCI HAR Dataset/ folder that has all the necessary data f
 	- `y_(test/train).txt` - Activity ID for each row of the data
 	- `subject_(test/train).txt` - Corresponding Subject ID for each row of data
 - As well as the raw data:
-	- Names of the measurements taken in X_(test/train).txt are reported in `features.txt`
+	- Names of the measurements taken in `X_(test/train).txt` are reported in `features.txt`
 	- Descriptive Activity labels for the Activity IDs are reported in `activity_labels.txt`
 
 
