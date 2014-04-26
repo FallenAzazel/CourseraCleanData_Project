@@ -24,7 +24,7 @@
 This will result in a /UCI HAR Dataset/ folder that has all the necessary data files.
 - Place the run_analysis.R script in this base folder.
 - Set the working directory to the /UCI HAR Dataset/ folder.
-- Run `Rscript <path to>/run_analysis.R`
+- Run `Rscript run_analysis.R`
 - The tidy dataset will be created in the working directory as `tidy_data.txt` and `tidy_data.csv` files
 
 
