@@ -18,7 +18,7 @@
 #As each dataset is found in the archive within test / training folders, please ensure this 
 #run_analysis.R script is located in the UCI HAR Dataset folder.
 
-#Data is subsetted into measurements of mean and standard deviation for each data measurement, columns
+#Data is sub-setted into measurements of mean and standard deviation for each data measurement, columns
 #have label names that include "mean()" or "std()" and finally written to a file
 
 
@@ -26,8 +26,6 @@
 #Clear the console screen
 cat("\014")  
 
-#Sets working directory for the project
-setwd("D:/My Videos/Coursea Courses/!Specialisation - Data Science/3. Getting and Cleaning Data/Assignments/Peer Assignment/UCI HAR Dataset")
 
 cat("Coursera: Getting and Cleaning Data", "\n")
 cat("Merging and Cleaning data from Samsung Galaxy S II phone movements", "\n")
