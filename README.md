@@ -25,18 +25,18 @@ This will result in a /UCI HAR Dataset/ folder that has all the necessary data f
 - Place the run_analysis.R script in this base folder.
 - Set the working directory to the /UCI HAR Dataset/ folder.
 - Run `Rscript <path to>/run_analysis.R`
-- The tidy dataset will be created in the working directory as `tidy_data.txt` and tidy_data.csv files
+- The tidy dataset will be created in the working directory as `tidy_data.txt` and `tidy_data.csv` files
 
 
 ###Archive Files
 
-- The Dataset.zip archive contains folders named /test and /train
+- The Dataset.zip archive contains folders named `/test` and `/train`
 - Each of these folders contain data in the form of:
-	- X_(test/train).txt - Measurements of data
-	- y_(test/train).txt - Activity ID for each row of the data
-	- subject_(test/train).txt - Corresponding Subject ID for each row of data
+	- `X_(test/train).tx`t - Measurements of data
+	- `y_(test/train).txt` - Activity ID for each row of the data
+	- `subject_(test/train).txt` - Corresponding Subject ID for each row of data
 - As well as the raw data:
-	- Names of the measurements taken in X_(test/train).txt are reported in features.txt
-	- Descriptive Activity labels for the Activity IDs are reported in activity_labels.txt
+	- Names of the measurements taken in X_(test/train).txt are reported in `features.txt`
+	- Descriptive Activity labels for the Activity IDs are reported in `activity_labels.txt`
 
 
