@@ -47,7 +47,7 @@ The set of variables that were estimated from these signals are:
 	- mean(): Mean value 
 	- std(): Standard deviation 
 
-###Each Activity Label(1 through 6):
+##Each Activity Label(1 through 6):
 
 	1 WALKING
 	2 WALKING_UPSTAIRS
