@@ -8,7 +8,7 @@
 
 ###Aim of the script
 
-- Using the training and test datasets to read the measurements taken (X)
+- Using the `training` and `test` datasets to read the measurements taken (X)
 - Subset the measurements taken to those only reporting Mean and Standard Deviation values (those including mean() and std())
 - Assign columns referring to the IDs of Activity and Subject
 - Merge `training` and `test` datasets into a single resource
