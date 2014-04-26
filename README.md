@@ -10,7 +10,7 @@
 
 - Using the training and test datasets to read the measurements taken (X)
 - Subset the measurements taken to those only reporting Mean and Standard Deviation values (those including mean() and std())
-- Assign columns refering to the IDs of Activity and Subject
+- Assign columns referring to the IDs of Activity and Subject
 - Merge `training` and `test` datasets into a single resource
 - Rename the Activity IDs to more descriptive values found in `activity_labels.txt`
 - Calculate the mean values for each Subject and Activity by melting the dataset and recasting
