@@ -56,12 +56,11 @@ activity_labels <- read.table("./activity_labels.txt", header=F, as.is=T, col.na
 activity_labels$Activity <- as.factor(activity_labels$Activity)
 
 
-#Rename colums of data frames
+#Rename columns of data frames
 names(data_train) <- feature_names[,2]
 names(data_test) <- feature_names[,2]
 
 # Subset the column names for those required: containing mean() or std()
-#subset_data_cols <- grep(".*mean\\(\\)|.*std\\(\\)", feature_names$Feature)
 subset_data_cols <- grep(".*mean\\(\\)|.*std\\(\\)", feature_names$Feature)
 
 
@@ -69,23 +68,13 @@ subset_data_cols <- grep(".*mean\\(\\)|.*std\\(\\)", feature_names$Feature)
 data_test <- data_test[,subset_data_cols]
 data_train <- data_train[,subset_data_cols]
 
-
-
-
 #Add SubjectID and ActivityID to data frames
 data_train<-cbind(activity_train, subject_train, data_train)
-#names(data_train)[1]<-"ID_Activity"
-#names(data_train)[2]<-"ID_Subject"
-
 data_test<-cbind(activity_test, subject_test, data_test)
-#names(data_test)[1]<-"ID_Activity"
-#names(data_test)[2]<-"ID_Subject"
-
 
 #Merge Dataframes to one complete set of data
 data_all <- as.double(NA) 
 data_all<-rbind(data_train,data_test)
-
 
 #Rename the columns with mean() and std()
 column_names <- colnames(data_all)
